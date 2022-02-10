@@ -10,68 +10,88 @@
     <link rel="stylesheet" href="styles/main.css" />
     <!--
         Name : Jenny Shin
-        Date : 01/21/2022
-        CS125H - Lab 2
+        Date : 02/07/2022
+        CS125H - Lab 5
     -->
 </head>
 
 <body>
     <header>
-        <img class="logo" src="images/logo.png" height="150" alt="logo">
+        <div class="header">
+        <img class="logo" src="images/logo.png" alt="logo">
         <h2>Fun Korean</h2>
-        <nav>
-            <div class="topnav">
-
-                <a class="active" href="#">HOME</a>
-                <a href="grammar/basic.html">BASIC</a>
-                <a href="videos/video.html">VIDEO</a>
-                <a href="worksheets" href="worksheets/worksheet.html">WORKSHEETS</a>
-                <a href="/K-POP/kpop.html">K-POP</a>
-
-            </div>
+    </div>
+        <nav class="nav_bar">
+            <ul>
+                <li><a href="#" class="current">About</a></li>
+                <li><a href="grammar/basic.html">Basic</a></li>
+                <li class="dd-menu"><a href="videos/video.html">Video</a>
+                    
+                    <!-- <ul>
+                        <li><a href="#">Beginner</a></li>
+                        <li><a href="#">Advanced</a></li>
+                        
+                    </ul> -->
+                </li>
+                <li><a href="worksheets/worksheet.html">Worksheets</a></li>
+                <li><a href="K-POP/kpop.html">K-POP</a></li>
+            </ul>
         </nav>
+        
+
 
     </header>
+
     <main>
-        <h3>Fun Learing Korean</h3>
-        <div class="container1">
-            <img class="letter_img" src=images/letter.png alt="letter_pic">
 
-
-            <h2>Why learn <em>Korean?</em></h2>
-            <P>Learning Korean will not only help you to communicate with people from Korea, but also enable you to be
-                able
-                to understand one of the most popular languages in Asia - which is said to be the most complicated
-                language
-                in the world.</P>
+        <div class="main_heading">
+            <h3>Learn Korean</h3>
+            <h3>Fun and Easy Way</h3>
         </div>
 
-        <br>
-        <div class="container2">
+        <section>
+
+            <img class="letter_img" src="images/letter.png" alt="letter_pic">
+
+
+            <div class="why">
+                <h2>Why learn <em>Korean?</em></h2>
+                <P>Learning Korean will not only help you to communicate with people from Korea, but also enable you to
+                    be able to understand one of the most popular languages in Asia - which is said to be the most
+                    complicated language in the world.</P>
+            </div>
+
             <img class="korean_girl" src="images/korean_girl.png" alt="korean_girl">
-            <h2>Korean Alphabet & Phonetics</h2>
-            <P>The Korean alphabet consists of 14 consonants and 10 vowels. Different syllables are created by adding a
-                vowel after the initial consonant sound.</P>
-        </div>
-        <br>
-        
-            <h2 class="how">How it works</h2>
 
-            <div class="container3">
-            <img class="basic_img" src="images/basic.png">
-            <img class="fun_video_img"src="images/fun_video.png">
-            <img class="worksheets_img" src="images/worksheets.png">
-        </div>
-        
-        <br>
-        <q class="quotation">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</q>
+            <div class="alphabet">
+                <h2>Korean Alphabet & Phonetics</h2>
+                <P>The Korean alphabet consists of 14 consonants and 10 vowels. Different syllables are created by
+                    adding a vowel after the initial consonant sound.</P>
+            </div>
+        </section>
 
+        <aside>
+            <h2 class="aside-heading">How it works</h2>
+
+            <div class="how">
+
+                <img class="basic_img" src="images/basic.png">
+                <img class="fun_video_img" src="images/fun_video.png">
+                <img class="worksheets_img" src="images/worksheets.png">
+
+            </div>
+
+            <br>
+            <p class="quotation">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                velit..."</p>
+        </aside>
     </main>
 
     <footer>
-        <div id="footer">
-            <p>&copy;Fun Korean,2022</p>
-        </div>
+        <img class="footer_logo" src="images/logo.png" alt="footer_img_logo">
+        <p class="footer_heading">Fun Korean</p>
+        <p class="copyright">&copy;Fun Korean, 2022</p>
+
     </footer>
 </body>
 
